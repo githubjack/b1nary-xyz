@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# B1nary Starter Project Version 1
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
