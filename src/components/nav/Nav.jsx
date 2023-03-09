@@ -1,11 +1,11 @@
-// components/Navbar.js
 
-import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import React, { useState } from 'react';
+import { NavLink, Link } from 'react-router-dom';
 import '../../App.css';
 
 
-export function NavBar() {
+/* export function NavBar() {
+  const [isOpen, setOpen] = useState(false);
     return (
       <>
         <div className="navbar-brand is-primary">
@@ -60,7 +60,7 @@ export function NavBar() {
       </>
  
     );
-}
+} */
 export function Nav() {
     const [isOpen, setOpen] = useState(false);
     return ( 
@@ -69,9 +69,47 @@ export function Nav() {
         role="navigation"
         aria-label="main navigation"
       >
-        <div className="container">
-            <NavBar />
-            {/* ... */}
+        <div className="container">        
+        <div className="navbar-brand is-primary">
+        <a
+          role="button"
+          className={`navbar-burger burger ${isOpen && "is-active"}`}
+          aria-label="menu"
+          aria-expanded="false"
+          onClick={() => setOpen(!isOpen)}
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div className={`navbar-menu ${isOpen && "is-active"}`}>
+        <div className="navbar-start">
+        <Link 
+          className="navbar-item" 
+          activeClassName="is-active" 
+          to="/">
+              Home
+            </Link>
+
+            <Link
+              className="navbar-item"
+              activeClassName="is-active"
+              to="/profile"
+            >
+              Profile
+            </Link>
+
+            <Link
+              className="navbar-item"
+              activeClassName="is-active"
+              to="/experience"
+            >
+              Experience
+            </Link>
+        </div>
+   
+      </div>
         </div>
       </nav>
     );
