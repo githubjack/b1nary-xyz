@@ -29,12 +29,12 @@ p{
   margin:0;
 }
 
-.App {
+.app {
   display:grid;
 }
 
 
-.Header {
+.header {
   background-color: #282c34;
   min-height: 10vh;
   max-height:3em;
@@ -42,6 +42,9 @@ p{
   color: white;
 }
 
+.navbar{
+  display:flex;
+}
 small{
   font-size:0.9rem;
   color: #61dafb;

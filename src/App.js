@@ -1,12 +1,15 @@
-
-import './App.css';
+import Header from "./components/header/Header";
+import Nav from "./components/nav/Nav";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="Header">
-        <h1>b1nary-xyz <small>id</small></h1>
-      </header>
+    <div className="app">
+      <Header />
+      <Nav />
+      <div className="container mt-2" style={{ marginTop: 40 }}>
+        {/* Render the page here */}
+      </div>
     </div>
   );
 }
