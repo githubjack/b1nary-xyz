@@ -1,8 +1,16 @@
-import React from "react";
+import * as React  from 'react';
+import { Link } from 'react-router-dom'
+import '../styles.css';
 
-export function Home() {
+const Home = () => {
     return(
         <div className="page">
+        <nav className="nav-container">
+          <Link to="/">Home</Link>
+          <Link to="/profile">Profile</Link>
+          <Link to="/work">Work</Link>
+          <Link to="/contact">Contact</Link>
+        </nav>
         <h1 className="h1">This is the Home Page</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida,
@@ -13,7 +21,5 @@ export function Home() {
       </div>
     );
 }
-
-
 
 export default Home;

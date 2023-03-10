@@ -1,17 +1,24 @@
-import React from "react";
-import Header from "./components/header/Header";
-import Nav from "./components/nav/Nav";
-import Home from "./pages/Home";
-import "./App.css";
-
-function App() {
+import * as React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Profile from './pages/Profile';
+import Work from './pages/Work';
+import Contact from'./pages/Contact';
+import Whoops404 from './pages/Whoops404';
+import Header from './components/header/Header';
+export function App() {
   return (
-    <div className="app">
-      <Header />
-      <Nav />
-      <div className="container mt-2" style={{ marginTop: 40 }}>
-        <Home />
+    <div>
+      <div>
+        <Header />
       </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/work" element={<Work />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<Whoops404 />} />
+      </Routes>
     </div>
   );
 }

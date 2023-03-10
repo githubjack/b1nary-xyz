@@ -1,12 +1,12 @@
 import React from "react";
-import '../../App.css';
+import '../../styles.css';
 
-export function Header() {
+const Header = () => {
     return (
         <header className="header">
         <h1>b1nary-xyz <small>id</small></h1>
       </header>
     );
-}
+};
 
 export default Header;

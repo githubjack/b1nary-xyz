@@ -1,8 +1,15 @@
-import React from "react";
-
-export function Experience() {
+import * as React  from 'react';
+import { Link } from 'react-router-dom'
+import '../styles.css';
+const Work = () => {
     return(
         <div className="page">
+        <nav className="nav-container">
+          <Link to="/">Home</Link>
+          <Link to="/profile">Profile</Link>
+          <Link to="/work">Work</Link>
+          <Link to="/contact">Contact</Link>
+        </nav>
         <h1 className="h1">This is the Experience Page</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida,
@@ -14,6 +21,4 @@ export function Experience() {
     );
 }
 
-
-
-export default Experience;
+export default Work;

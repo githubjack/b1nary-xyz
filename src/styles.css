@@ -1,8 +1,4 @@
-*,
-*::after,
-*::before{
-  box-sizing:border-box;
-}
+
 html,
 body{
   height:100%;
@@ -33,7 +29,11 @@ p{
   display:grid;
 }
 
-
+.page {
+  width:100%;
+  background-color:#f5f5f4;
+  color:#020202;
+}
 .header {
   background-color: #282c34;
   min-height: 10vh;
@@ -42,6 +42,21 @@ p{
   color: white;
 }
 
+
+.nav-container {
+  display:flex;
+  flex-wrap:wrap;
+  min-width:300px;
+  max-width:460px;
+  align-items:center;
+  justify-content: space-evenly;
+}
+.nav-container a:link,
+.nav-container a:hover,
+.nav-container a:visited {
+  text-decoration:none;
+  font-size: 0.8rem;
+}
 .navbar{
   display:flex;
 }
