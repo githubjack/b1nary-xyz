@@ -77,17 +77,17 @@ p{
   top:0;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: stretch;
   z-index:10;
   background-color:#0a0a0a;
+  padding-inline:4.5em;
 }
 
 .home-header{
   display: flex;
   flex-direction: column;
   /* align-items: center; */
-  padding: 0 1em;
   height: 100%;
   width: 100%;
   background-color: #0A0A0A;

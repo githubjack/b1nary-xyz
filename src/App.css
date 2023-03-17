@@ -113,9 +113,7 @@ p{
 .header,
 .main{
 height:100vh;
-}
-.main{
-  padding-inline:1em;
+padding-inline:4.5em;
 }
 .footer{
   padding-inline:1em;
