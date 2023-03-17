@@ -1,24 +1,23 @@
 import * as React  from 'react';
-import { Link } from 'react-router-dom'
 import '../styles.css';
 
 const Home = () => {
     return(
-        <div className="page">
-        <nav className="nav-container">
-          <Link to="/">Home</Link>
-          <Link to="/profile">Profile</Link>
-          <Link to="/work">Work</Link>
-          <Link to="/contact">Contact</Link>
-        </nav>
-        <h1 className="h1">This is the Home Page</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida,
-          risus at dapibus aliquet, elit quam scelerisque tortor, nec accumsan eros
-          nulla interdum justo. Pellentesque dignissim, sapien et congue rutrum,
-          lorem tortor dapibus turpis, sit amet vestibulum eros mi et odio.
-        </p>
+      <>
+      <div className="header">
+        <header className="home-header">
+          <h1 className="h1">This is the Home Page</h1>
+        </header>
       </div>
+
+      <div className="main">
+        <p className="p">This is the main content of the Home Page</p>
+      </div>
+
+      <div className="footer"><h2>Footer</h2></div>
+      <div className="reachable"><h2>Social Media</h2></div>
+      </>
+
     );
 }
 

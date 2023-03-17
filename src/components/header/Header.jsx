@@ -3,7 +3,7 @@ import '../../styles.css';
 
 const Header = () => {
     return (
-        <header className="header">
+        <header>
         <h1>b1nary-xyz <small>id</small></h1>
       </header>
     );

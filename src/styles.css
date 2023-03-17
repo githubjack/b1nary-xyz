@@ -1,13 +1,29 @@
+@font-face {
+  font-family: 'Inconsolata';
+  src: url('../public/assets/fonts/Inconsolata-Regular.woff2') format('woff2'),
+      url('../public/assets/fonts/Inconsolata-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
+@font-face {
+  font-family: 'Jost';
+  src: url('../public/assets/fonts/Jost-SemiBold.woff2') format('woff2'),
+      url('../public/assets/fonts/Jost-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
 html,
 body{
   height:100%;
   width:auto;;
-  margin:0
+  margin:0;
 }
 body{
   line-height:1.4;
-  font-family: sans-serif;
+  font-family: 'Inconsolata';
   font-size:16px;
 }
 h1,
@@ -17,52 +33,65 @@ h4,
 h5,
 h6{
   margin:0;
+  font-family: 'Jost';
+  color:#fff;
 }
 h1{
-  font-size:1.5rem;
+  font-size: 1.8rem;
+  letter-spacing: 1.1px;
+}
+h2{
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+}
+h3{
+  font-size: 1.4rem;
+  letter-spacing: 0.9px;
+}
+h4{
+  font-size: 1.2rem;
+  letter-spacing: 0.8px;
+}
+h5{
+  font-size: 1.1rem;
+  letter-spacing: 0.7px;
+}
+h6{
+  font-size: 1rem;
+  letter-spacing: 0.6px;
 }
 p{
   margin:0;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
 }
 
 .app {
-  display:grid;
+    width:100%;
+    height:100vh;
 }
 
-.page {
-  width:100%;
-  background-color:#f5f5f4;
-  color:#020202;
-}
-.header {
-  background-color: #282c34;
-  min-height: 10vh;
-  max-height:3em;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-
-.nav-container {
-  display:flex;
-  flex-wrap:wrap;
-  min-width:300px;
-  max-width:460px;
-  align-items:center;
-  justify-content: space-evenly;
-}
-.nav-container a:link,
-.nav-container a:hover,
-.nav-container a:visited {
-  text-decoration:none;
-  font-size: 0.8rem;
-}
-.navbar{
-  display:flex;
-}
-small{
-  font-size:0.9rem;
-  color: #61dafb;
+.nav {
+  position:-webkit-sticky; 
+  position:sticky; 
+  top:0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  z-index:10;
+  background-color:#0a0a0a;
 }
 
-
+.home-header{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  padding: 0 1em;
+  height: 100%;
+  width: 100%;
+  background-color: #0A0A0A;
+  /* background-image: url(../src/assets/images/binary_grad_v2.png); */
+  background-size:cover;
+  background-repeat:no-repeat;
+}
