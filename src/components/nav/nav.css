@@ -19,10 +19,10 @@ li {
     text-align:center;
 }
 .nav-list .active{
-    background-color: hsl(0, 0%, 22%);
+    background-color: transparent;
 }
 .nav-list li:hover{
-    background-color: hsl(0, 0%, 17%);
+    background-color: transparent;
 }
 
 .nav-list .nav-link{
@@ -37,6 +37,6 @@ li {
     font-size: 15px;
     line-height: 17px;
     text-transform: lowercase;
-    color: rgba(59, 185, 180, 0.5);
+    color: rgba(0, 4, 4, 0.5);
 
 }
