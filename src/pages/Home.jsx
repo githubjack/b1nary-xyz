@@ -13,10 +13,7 @@ const Home = () => {
       <div className="main">
         <p className="p">This is the main content of the Home Page</p>
 
-        <ReactHead />
-
-
-
+        <div>Test Div</div>
       </div>
 
       <div className="footer"><h2>Footer</h2></div>
