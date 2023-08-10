@@ -1,6 +1,4 @@
 import * as React from 'react';
-// import ReactHead from './head.svg';
-import { ReactComponent as ReactHead } from './head.svg';
 import '../styles.css';
 
 const Home = () => {
@@ -14,19 +12,10 @@ const Home = () => {
 
       <div className="main">
         <p className="p">This is the main content of the Home Page</p>
-        {/* <img style={[width: "200px" ]} src={ReactHead} alt="React Logo" /> */}
+
         <ReactHead />
 
-        <svg
-          viewBox="0 0 24 24"
-          xmlns="<http://www.w3.org/2000/svg>"
-        >
-          <circle
-            cx="12" cy="12" r="8"
-            strokeWidth="4" stroke="tomato"
-            fill="none"
-          />
-        </svg>
+
 
       </div>
 
