@@ -1,5 +1,9 @@
 // import * as React from "react";
 import { Routes, Route } from "react-router-dom";
+import React from 'react';
+
+// your JSX code here
+
 import Home from "./pages/Home";
 import Profile from "./pages/Profile";
 import Work from "./pages/Work";

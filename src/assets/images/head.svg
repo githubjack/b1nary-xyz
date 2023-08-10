@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 756 756">
+  <path style="opacity:.99;stroke:#777;stroke-miterlimit:1.1;stroke-width:3;fill:none" d="M372.05 890.68v-729M189.8 841.85l364.5-631.34M56.38 708.43l631.33-364.5M7.55 526.18h729M56.38 343.93l631.33 364.5M189.79 210.51l364.5 631.33M372.05 161.68 56.38 343.93v364.5l315.67 182.25 315.67-182.25v-364.5L372.05 161.68" transform="translate(5.9528 -148.18)"/>
+  <path d="M189.8 210.51 7.55 526.18 189.8 841.85h364.5l182.25-315.67L554.3 210.51H189.8" style="opacity:.99;stroke:#777;stroke-miterlimit:1.1;stroke-width:3;fill:none" transform="translate(5.9528 -148.18)"/>
+  <path style="opacity:.99;stroke:#777;stroke-miterlimit:1.1;stroke-width:3;fill:none" d="m56.381 343.93 497.92-133.42 133.41 497.92-497.91 133.42z" transform="translate(5.9528 -148.18)"/>
+  <path d="M687.71 343.93 554.3 841.85 56.38 708.43 189.8 210.51z" style="opacity:.99;stroke:#777;stroke-miterlimit:1.1;stroke-width:3;fill:none" transform="translate(5.9528 -148.18)"/>
+  <path style="opacity:.99;stroke:#777;stroke-miterlimit:1.1;stroke-width:3;fill:none" d="m736.55 526.18-364.5 364.5-364.5-364.5 364.5-364.5z" transform="translate(5.9528 -148.18)"/>
+  <path style="opacity:.99;stroke:#777;stroke-miterlimit:1.1;stroke-width:3;fill:none" d="m189.8 210.51 546.75 315.67L189.8 841.85z" transform="translate(5.9528 -148.18)"/>
+  <path d="m7.5472 526.18 546.75-315.67v631.33z" style="opacity:.99;stroke:#777;stroke-miterlimit:1.1;stroke-width:3;fill:none" transform="translate(5.9528 -148.18)"/>
+  <path style="opacity:.99;stroke:#777;stroke-miterlimit:1.1;stroke-width:3;fill:none" d="M56.381 343.93h631.33l-315.67 546.75z" transform="translate(5.9528 -148.18)"/>
+  <path d="M687.71 708.43H56.38l315.67-546.75z" style="opacity:.99;stroke:#777;stroke-miterlimit:1.1;stroke-width:3;fill:none" transform="translate(5.9528 -148.18)"/>
+  <path style="opacity:.99;stroke:#777;stroke-miterlimit:1.1;stroke-width:3;fill:none" d="M195.75 62.334 378 13.5l182.25 48.834 133.42 133.42 48.834 182.25-48.834 182.25-133.42 133.42L378 742.504l-182.25-48.83-133.42-133.42-48.83-182.25 48.834-182.25z"/>
+  <path style="opacity:.99;stroke:#777;stroke-miterlimit:1.1;stroke-width:3;fill:none" d="M372.05 161.68 554.3 841.85M189.8 210.51l497.91 497.92M56.381 343.93l680.17 182.25M7.5473 526.18l680.16-182.25M56.381 708.43l497.92-497.92M189.8 841.85l182.25-680.17M372.05 890.68 189.8 210.51M554.3 841.85 56.38 343.93M687.71 708.43 7.55 526.18M736.55 526.18 56.38 708.43M687.71 343.93 189.8 841.85M554.3 210.51 372.05 890.68" transform="translate(5.9528 -148.18)"/>
+</svg>

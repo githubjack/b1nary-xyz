@@ -3,6 +3,10 @@ import "../../styles.css";
 import "./nav.css";
 import logo from "../../../src/assets/images/Binary_logo_teal.png";
 
+import React from 'react';
+
+// your JSX code here
+
 // console.log(logo);
 
 const Nav = () => {
