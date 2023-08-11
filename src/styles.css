@@ -8,9 +8,9 @@
 }
 
 @font-face {
-  font-family: 'Jost';
-  src: url('./assets/fonts/Jost-SemiBold.woff2') format('woff2'),
-      url('./assets/fonts/Jost-SemiBold.woff') format('woff');
+  font-family: 'BebasNeue';
+  src: url('./assets/fonts/BebasNeue-Regular.woff') format('woff'),
+      url('./assets/fonts/BebasNeue-Regular.woff') format('woff');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -33,8 +33,24 @@ h4,
 h5,
 h6{
   margin:0;
-  font-family: 'Jost';
+  font-family: 'BebasNeue';
   color:#000;
+}
+.bold-type {
+color: #FFF;
+font-family: 'BebasNeue';
+font-size: 120px;
+font-style: normal;
+font-weight: 400;
+line-height: 95px; /* 79.167% */
+letter-spacing: 4.8px;
+text-transform: uppercase;
+max-width:9.5ch;
+-webkit-padding-before: 100px;
+        padding-block-start: 100px;
+}
+.bold-type-black{
+  color: #040404;
 }
 h1{
   font-size: 1.8rem;
@@ -78,9 +94,9 @@ p{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: stretch;
   z-index:10;
   /* background-color:#0a0a0a; */
+  background-color: #008E39;
   padding-inline:4.5em;
 }
 

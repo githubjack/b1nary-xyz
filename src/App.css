@@ -62,11 +62,12 @@ END MODERN  CSS RESET
 
 html,
 body{
-  background-color: #ffffff;
+  background-color: #008E39;
+  color: #ffffff;
 }
 body{
   line-height:1.4;
-  font-family: sans-serif;
+  font-family: 'Inconsolata';
   font-size:16px;
 }
 h1,

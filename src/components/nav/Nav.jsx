@@ -1,7 +1,7 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 import "../../styles.css";
 import "./nav.css";
-import logo from "../../../src/assets/images/Binary_logo_teal.png";
+import logo from "../../../src/assets/images/Binary_logo_black.png";
 
 import React from 'react';
 
@@ -14,15 +14,27 @@ const Nav = () => {
   console.log(path);
   return (
     <nav className="nav">
-      <Link to="/" className="site-title">
-        <img src={logo} alt="logo" width={80} />
-      </Link>
-      <ul className="nav-list">
+
+    <div className="nav-list">
+    <ul>
         <CustomLink to="/">Home</CustomLink>
         <CustomLink to="/profile">Profile</CustomLink>
         <CustomLink to="/work">Work</CustomLink>
         <CustomLink to="/contact">Contact</CustomLink>
       </ul>
+    </div>
+
+    <div className="nav-list">
+    <Link to="/" className="site-title">
+        <img src={logo} alt="logo" width={80} />
+      </Link>
+    </div>
+    <div className="nav-list">
+      <ul>
+        <CustomLink to="/profile">Button here</CustomLink>
+      </ul>
+    </div>
+     
     </nav>
   );
 };

@@ -9,16 +9,28 @@ const HomePageHeader = () => {
   </header>
 </div>
 }
+
+const Footer = () => {
+<div className="footer">
+  <h2>Footer</h2>
+</div>
+}
+const Reachable = () =>{
+  <div className="reachable">
+    <h2>Social Media</h2>
+    </div> 
+  }
 const Home = () => {
   return (
     <>
     <HomePageHeader />
       <div className="main">
-        <div>Test Div for home page</div>
+        <div>
+          <h1 className="bold-type">full stack developer</h1>
+          </div>
       </div>
-
-{/*       <div className="footer"><h2>Footer</h2></div>
-      <div className="reachable"><h2>Social Media</h2></div> */}
+      <Footer />
+      <Reachable />
 
     </>
 
